@@ -53,7 +53,7 @@ public class MyStringBuffer {
     }
     
     public static void main(String[] args) {
-        MyStringBuffer str = new MyStringBuffer("Hello world!");
+        MyStringBuffer str = new MyStringBuffer("Hello World!");
         //hello worl d !
         //01234567891011  length = 12
         str.print();
@@ -65,9 +65,10 @@ public class MyStringBuffer {
         str.print();
         //Answer is "Hello !"
 
-        //note ... that array now contain --> "Hlo ASU!" <-- and its length is 8 not "Hello ASU!"
+        //note ... that array now contain --> "Hello !" <-- not "Hello World!"
         str.insert(6, "ASU");
         str.print();
-        //Answer is "Hilo ASU!"
+        //Answer is "Hello ASU!"
+                  // 0123456789
     }
 }
